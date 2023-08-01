@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tabla desde API</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Agregar el enlace al archivo CSS de Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <h1>Tabla de datos desde API</h1>
+  <div class="container mt-5">
+    <table id="data-table" class="table table-bordered table-striped mt-4">
+        <thead class="thead-dark">
+          <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>IMEI/UID</th>
+            <th>Latitud</th>
+            <th>Longitud</th>
+            <th>Velocidad</th>
+            <th>No. Satelite</th>
+            <th>Angulo</th>
+            <th>Voltaje de Bateria</th>
+            <th>GPS</th>
+            <th>Fecha UTC</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Los datos se agregarán aquí dinámicamente -->
+        </tbody>
+      </table>
+  </div>
+  <script src="js/units.js"></script>
+</body>
+</html>
